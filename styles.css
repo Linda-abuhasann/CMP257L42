@@ -1,0 +1,84 @@
+body {
+  background-color: #F5D2D2;
+  font-family: monospace;
+  font-size: larger;
+}
+
+h1 {
+  background-color: #F8F7BA;
+  padding: 2rem;
+  font-size: 3.5rem;
+  text-align: center;
+  border-width: 0.5rem;
+  border-color: #b10d4c;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+form {
+  font-size: 1.3rem;
+  border: 2px solid #A3CCDA;
+  padding: 1rem;
+  margin-left: 1.5rem;
+}
+
+footer {
+  background-color: #F8F7BA;
+}
+
+span:hover {
+  background-color: #c0dce5;
+}
+
+button[type="reset"] {
+  width: 140px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right, #a589c9, #d8bfd5, #190a4d, #BDE3C3, #A3CCDA);
+  background-size: 250%;
+  background-position: left;
+  color: #000000;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+
+button[type="submit"] {
+  width: 140px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right, #7354e2, #847cdb, #6157e9, #BDE3C3, #A3CCDA);
+  background-size: 250%;
+  background-position: left;
+  color: #000000;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+
+#menu {
+  background-color: rgb(199, 108, 150);
+  font-size: larger;
+  font-style: oblique;
+}
+
+#carousel-item {
+  width: 40%;
+  height: auto;
+  display: block;
+  margin: auto;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
